@@ -27,10 +27,9 @@
 ```
 ThinkCrew/
 ├─ ThinkCrew.ipynb                # Original notebook
-├─ ThinkCrew_Annotated.ipynb      # Annotated, documentation-rich notebook
 ├─ README.md                      # This file
 ├─ requirements.txt               # (optional — suggested below)
-└─ assets/                        # (optional: images, diagrams)
+
 ```
 
 ---
@@ -95,8 +94,8 @@ Do **not** hard-code credentials. Use one of:
 
 **Keys used in the notebook**
 
-* `GROQ_API_KEY` — Groq LLM backend key (optional)
-* `TAVILY_API_KEY` — Tavily Search API key (optional)
+* `GROQ_API_KEY` — Groq LLM backend key 
+* `TAVILY_API_KEY` — Tavily Search API key 
 
 ---
 
@@ -140,16 +139,6 @@ result = crew.kickoff()
 print(result)
 ```
 
----
-
-## 📝 What I changed in `ThinkCrew_Annotated.ipynb`
-
-* Inserted clear section headings (Imports, Config, Agent definitions, Tasks, Crew init, Run).
-* Added a descriptive Markdown table of contents.
-* Added inline code comments explaining intent and parameters (no functional changes).
-* Suggested best practices (secrets handling, reproducibility, pinning versions).
-
----
 
 ## 🧰 Suggested `requirements.txt`
 
@@ -185,7 +174,6 @@ Contributions are welcome.
 * For code contributions, fork → branch → PR.
 * Keep changes minimal and add tests or documentation when introducing new features.
 
-If you’d like, I can generate a `CONTRIBUTING.md` template for you.
 
 ---
 
@@ -195,5 +183,3 @@ This project uses the **MIT License** — see the `LICENSE` file for details.
 
 ---
 
-
-Which of the above would you like me to create next?
